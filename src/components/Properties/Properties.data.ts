@@ -1,7 +1,7 @@
 export const dataProperties = [
   {
     id: 1,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
@@ -13,7 +13,7 @@ export const dataProperties = [
   },
   {
     id: 2,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 150000,
     bedrooms: 2,
     bathroom: 2,
@@ -25,7 +25,7 @@ export const dataProperties = [
   },
   {
     id: 3,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 35.0,
     bedrooms: 5,
     bathroom: 2,
@@ -37,7 +37,7 @@ export const dataProperties = [
   },
   {
     id: 4,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
@@ -49,7 +49,7 @@ export const dataProperties = [
   },
   {
     id: 5,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
@@ -61,7 +61,7 @@ export const dataProperties = [
   },
   {
     id: 6,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
@@ -73,7 +73,7 @@ export const dataProperties = [
   },
   {
     id: 7,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
@@ -85,7 +85,7 @@ export const dataProperties = [
   },
   {
     id: 8,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
@@ -97,7 +97,7 @@ export const dataProperties = [
   },
   {
     id: 9,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
@@ -109,7 +109,7 @@ export const dataProperties = [
   },
   {
     id: 10,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
@@ -121,7 +121,7 @@ export const dataProperties = [
   },
   {
     id: 11,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
@@ -133,7 +133,7 @@ export const dataProperties = [
   },
   {
     id: 12,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
@@ -145,7 +145,7 @@ export const dataProperties = [
   },
   {
     id: 13,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
@@ -157,7 +157,7 @@ export const dataProperties = [
   },
   {
     id: 14,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
@@ -169,7 +169,7 @@ export const dataProperties = [
   },
   {
     id: 15,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
@@ -181,7 +181,7 @@ export const dataProperties = [
   },
   {
     id: 16,
-    location: "Cuenca, Valencia, ES",
+    location: "Ipiales, Nariño, CO",
     price: 200000,
     bedrooms: 3,
     bathroom: 1,
