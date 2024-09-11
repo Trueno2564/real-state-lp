@@ -4,7 +4,6 @@ import { NavbarProps } from "./Navbar.types"
 import { AnimatePresence } from "framer-motion"
 import Link from "next/link"
 import { motion } from "framer-motion"
-import { Transition } from "../Transition"
 
 export function Navbar(props: NavbarProps) {
     const {openMobileMenu} = props
@@ -13,13 +12,15 @@ export function Navbar(props: NavbarProps) {
     const handleScroll = () => {
         if(window.scrollY >= window.innerHeight-600){
             setIsScrolling(true)
+            // console.log("scrolling")
         }else{
             setIsScrolling(false)
+            // console.log("Not scrolling")
         }
     }
 
     useEffect(() => {
-        window.addEventListener("scrool", handleScroll)
+        window.addEventListener("scroll", handleScroll)
         return () => {
             window.removeEventListener("scroll", handleScroll)
         }
@@ -28,10 +29,10 @@ export function Navbar(props: NavbarProps) {
     return (
         <AnimatePresence>
             {isScrolling? (
-                <motion.nav key={1}
+                <motion.div key={1}
                 variants={animationNavbar}
                 initial = "initial"
-                animate = "animated"
+                animate = "animate"
                 exit = "exit"
                 className="ml-auto mr-auto md:fixed z-[9999] right-0 left-0 px-6 py-3 text-white bg-gray-400/40 top-10 rounded-3xl backdrop-blur w-fit"
                 >
@@ -39,15 +40,13 @@ export function Navbar(props: NavbarProps) {
                         {dataHeader.map(({id, name, link}) =>(
                             <Link key={id} href={link} className="hover:text-secondary hover:border-b-[1px] hover:border-secondary">{name}</Link>
                         ))}
-                        <Link href="/login" className="px-3 py-2 text-white rounded-lg bg-secondary hover:bg-black"></Link>
+                        <Link href="/login" className="px-3 py-2 text-white rounded-lg bg-secondary hover:bg-black">Login</Link>
                     </div>
-                </motion.nav>
+                </motion.div>
             ):(
                 <div className={`${openMobileMenu? 'absolute z-[1] left-0 top-20 bg-white r-0 w-full px-4 py-4' : 'hidden'} gap-5 md:flex`}>
                     {dataHeader.map(({id, name, link}) => (
-                        <Link key={id} href={link} className="block hover:text-secondary hover:border-b-[1px] hover:border-secondary">{name}
-
-                        </Link>
+                        <Link key={id} href={link} className="block hover:text-secondary hover:border-b-[1px]">{name}</Link>
                     ))}
                 </div>
             )}
