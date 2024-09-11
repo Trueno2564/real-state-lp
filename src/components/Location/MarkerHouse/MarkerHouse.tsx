@@ -2,7 +2,7 @@ import { Marker, Popup, useMap } from 'react-leaflet'
 import { MarkerHouseProps } from './MarkerHouse.types'
 import { icon } from 'leaflet'
 import { housesData } from './MarkerHouse.data'
-import { FaMapMarkerAlt } from 'react-icons/Fa'
+import { FaMapMarkerAlt } from 'react-icons/fa'
 import Image from 'next/image'
 
 export function MarkerHouse(props: MarkerHouseProps) {

@@ -1,4 +1,4 @@
-import { FaRegPaperPlane } from "react-icons/Fa";
+import { FaRegPaperPlane } from "react-icons/fa";
 import { Transition } from "../Transition";
 
 export function JoinCommunity() {

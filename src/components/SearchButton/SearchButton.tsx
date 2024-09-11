@@ -1,4 +1,4 @@
-import { RiSearch2Line } from 'react-icons/Ri';
+import { RiSearch2Line } from 'react-icons/ri';
 
 export function SearchButton() {
     return (
